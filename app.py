@@ -41,7 +41,7 @@ def calculate_decay_learning_rate(initial_lambda, min_lambda, total_questions, q
     return decayed_lambda
 
 # Path to the Excel file
-file_path = 'C:\\Users\\dmitc\\back_prop\\Lib\\data_for_back_propagation.xlsx'
+file_path = 'data/data_for_back_propagation.xlsx'
 
 # Load data
 df = load_data(file_path)
